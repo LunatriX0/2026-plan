@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome 2026 – Hamida Rahimi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#hero" class="navbar-logo">HR 2026</a>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#hero" class="navbar-link">Home</a></li>
+                <li><a href="#reflection" class="navbar-link">Reflection</a></li>
+                <li><a href="#achievements" class="navbar-link">Achievements</a></li>
+                <li><a href="#goals" class="navbar-link">Goals</a></li>
+                <li><button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button></li>
+            </ul>
+            <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome 2026</h1>
+            <p class="hero-subtitle">New Year, New Opportunity, New Energy</p>
+            <p class="hero-intro">A personal journey of reflection, growth, and intentional change</p>
+            <p class="hero-name">Hamida Rahimi</p>
+        </div>
+
+    </section>
+
+    <!-- Reflection Section -->
+    <section class="reflection section-padding" id="reflection">
+        <div class="container">
+            <h2 class="section-title">Looking Back</h2>
+            <div class="reflection-content fade-in">
+                <p class="reflection-text">
+                    2025 was a year of significant transformation. I navigated the complexities of continuing my
+                    university education while taking bold steps into the professional world. Each decision I made—from
+                    joining Netlinks to completing my HWRO training—was deliberate and meaningful.
+                </p>
+                <p class="reflection-text">
+                    I learned the importance of setting boundaries and understanding my own worth. The experience at TTC
+                    taught me what real work demands, and it solidified my commitment to seeking better opportunities. I
+                    am grateful for every challenge that pushed me to grow.
+                </p>
+                <p class="reflection-text">
+                    As I reflect on the past year, I see a person who became more confident, more intentional, and more
+                    prepared for what lies ahead. This foundation will carry me into 2026 with clarity and purpose.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements section-padding" id="achievements">
+        <div class="container">
+            <h2 class="section-title">My Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="achievement-title">University Progress</h3>
+                        <p class="achievement-description">Continuing my studies at AUAF, currently in Year 2, Semester
+                            3, maintaining focus and dedication to my academic path.</p>
+                        <span class="achievement-icon">🎓</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="achievement-title">HWRO Training Completion</h3>
+                        <p class="achievement-description">Successfully completed training program and received a
+                            laptop—a tool that enabled new possibilities and growth.</p>
+                        <span class="achievement-icon">💻</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="achievement-title">Joining Netlinks</h3>
+                        <p class="achievement-description">Became part of Netlinks company, marking an important step in
+                            my professional journey and network expansion.</p>
+                        <span class="achievement-icon">🚀</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="achievement-title">First Real Work Experience</h3>
+                        <p class="achievement-description">Gained valuable professional experience at TTC, learning the
+                            realities of the workplace and building practical skills.</p>
+                        <span class="achievement-icon">💼</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="achievement-title">Personal Growth</h3>
+                        <p class="achievement-description">Developed stronger boundaries in relationships and a clearer
+                            understanding of my own values and priorities.</p>
+                        <span class="achievement-icon">✨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals section-padding" id="goals">
+        <div class="container">
+            <h2 class="section-title">Goals & Plans for 2026</h2>
+
+            <!-- Progress Indicator -->
+            <div class="goals-progress fade-in">
+                <div class="progress-header">
+                    <span class="progress-text">
+                        <span id="completed-count">0</span> of <span id="total-count">6</span> goals completed
+                    </span>
+                    <span class="progress-percentage" id="progress-percentage">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="goals-grid">
+                <div class="goal-card fade-in" data-goal-id="goal-1">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">🎯</div>
+                    <h3 class="goal-title">University Transfer Research</h3>
+                    <p class="goal-description">Contact universities such as AUCA, AUO, and other institutions to
+                        explore transfer
+                        opportunities and improve my academic path.</p>
+                </div>
+
+                <div class="goal-card fade-in" data-goal-id="goal-2">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">💼</div>
+                    <h3 class="goal-title">Job Applications</h3>
+                    <p class="goal-description">Focus on seeking better-paying opportunities that align with my skills
+                        and career goals.</p>
+                </div>
+
+                <div class="goal-card fade-in" data-goal-id="goal-3">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">🛡️</div>
+                    <h3 class="goal-title">Personal Boundaries</h3>
+                    <p class="goal-description">Maintain strict red lines in relationships. I will prioritize my
+                        well-being and ensure that my boundaries are respected in all areas of my life.</p>
+                </div>
+
+                <div class="goal-card fade-in" data-goal-id="goal-4">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">💻</div>
+                    <h3 class="goal-title">Professional & Academic Development</h3>
+                    <p class="goal-description">Complete core programming foundations in JavaScript and Python. Finish
+                        the full front-end web development stack. Strengthen understanding of data structures and software
+                        engineering principles to advance my technical capabilities.</p>
+                </div>
+
+                <div class="goal-card fade-in" data-goal-id="goal-5">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">⏰</div>
+                    <h3 class="goal-title">Time & Energy Management</h3>
+                    <p class="goal-description">Create and follow a realistic weekly routine that balances study, work,
+                        and personal time. Protect focused study and work time by eliminating unnecessary interruptions.
+                        </p>
+                </div>
+
+                <div class="goal-card fade-in" data-goal-id="goal-6">
+                    <button class="goal-checkbox" aria-label="Mark goal as completed">
+                        <span class="checkbox-icon">✓</span>
+                    </button>
+                    <div class="goal-icon">💰</div>
+                    <h3 class="goal-title">Financial Awareness & Independence</h3>
+                    <p class="goal-description">Track monthly income and expenses to gain clarity on my financial
+                        situation. Build basic saving habits and establish a foundation for financial security. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing section-padding" id="closing">
+        <div class="container">
+            <div class="closing-content fade-in">
+                <p class="closing-statement">In 2026, I will do my best to change something bigger in my life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Hamida Rahimi</p>
+            <p class="footer-year">01/01/2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
